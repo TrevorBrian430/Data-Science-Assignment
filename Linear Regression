@@ -1,0 +1,6 @@
+road_accident_data <- data.frame(DATASET_2)
+# Create the linear regression model
+model <- lm(X ~ Y, data = road_accident_data)
+
+# Summary of the model
+summary(model)
